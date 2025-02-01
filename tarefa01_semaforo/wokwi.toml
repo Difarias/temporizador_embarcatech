@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/tarefa01_semaforo.uf2'
+elf = 'build/tarefa01_semaforo.elf'

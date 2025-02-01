@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "author": "Diego Farias de Freitas",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-pi-pico-w", "id": "pico", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 63.6,
+      "left": -178.6,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 121.2,
+      "left": -178.6,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": 169.2,
+      "left": -178.6,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 99.95,
+      "left": -115.2,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": 147.95,
+      "left": -115.2,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r4",
+      "top": 205.55,
+      "left": -115.2,
+      "attrs": { "value": "330" }
+    }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "led3:C", "pico:GND.1", "black", [ "v0", "h-57.2", "v-211.2" ] ],
+    [ "led2:C", "pico:GND.1", "black", [ "v0", "h-57.2", "v-38.4" ] ],
+    [ "led1:C", "pico:GND.1", "black", [ "v0", "h-57.2", "v-76.8" ] ],
+    [ "led3:A", "r4:1", "green", [ "v0", "h28.8", "v-9.6" ] ],
+    [ "r4:2", "pico:GP13", "green", [ "v0", "h37.2", "v-38.4" ] ],
+    [ "led2:A", "r3:1", "green", [ "v0" ] ],
+    [ "r3:2", "pico:GP12", "green", [ "v0" ] ],
+    [ "led1:A", "r1:1", "green", [ "v0" ] ],
+    [ "r1:2", "pico:GP11", "green", [ "v0", "h37.2", "v38.4" ] ]
+  ],
+  "dependencies": {}
+}
