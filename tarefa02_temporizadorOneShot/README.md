@@ -45,7 +45,11 @@ git clone https://github.com/Difarias/semaforo_e_temporizador_embarcatech
 ```
 
 ### 2. **Abra o projeto no VS Code**:
-Navegue até a pasta do projeto e abra-a no VS Code.
+Navegue até a pasta do projeto (tarefa02_temporizadorOneShot) e abra-a no VS Code.
+```bash
+cd tarefa02_temporizadorOneShot/
+code .
+```
 
 ### 3. **Gere a pasta de build**:
 No terminal integrado do VS Code, execute os seguintes comandos para gerar a pasta de build:

@@ -42,6 +42,10 @@ Siga as etapas abaixo para rodar o projeto:
 
 2. **Abra o projeto no VS Code**:
    Navegue até a pasta do projeto (tarefa01_semaforo) e abra-a no VS Code.
+   ```bash
+   cd tarefa01_semaforo/
+   code .
+   ```
 
 3. **Gere a pasta de build**:
    No terminal integrado do VS Code, execute os seguintes comandos para gerar a pasta de build:
