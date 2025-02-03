@@ -14,13 +14,21 @@ A solução simula o funcionamento de um semáforo, com LEDs nas cores vermelha,
 
 ## Requisitos
 
-- **Compilador C**: Necessário para compilar o código.
-- **VS Code instalado**: Editor de código necessário para desenvolvimento.
-- **Pico SDK configurado**: SDK do Raspberry Pi Pico configurado no ambiente de desenvolvimento.
-- **Simulador Wokwi integrado ao VS Code**: Para simulação do projeto sem a necessidade de hardware físico.
-- **Git instalado**: Para versionamento de código e clonagem do repositório.
-- **Extensão C/C++ instalada no VS Code**: Para suporte ao desenvolvimento em C/C++.
-- **Extensão Raspberry Pi Tools instalada no VS Code**: Para facilitar o desenvolvimento para o Raspberry Pi Pico.
+Antes de começar, verifique se possui os seguintes itens instalados e configurados corretamente:
+
+🎯 Ferramentas Essenciais
+- Compilador para C → Necessário para transformar o código-fonte em um executável compatível com o microcontrolador.
+- Editor de Código → Recomendamos o VS Code para facilitar a escrita e depuração do código.
+
+🔧 Configuração do Ambiente
+- SDK do Raspberry Pi Pico → Biblioteca essencial para comunicação e controle do microcontrolador. Certifique-se de que está corretamente configurada no sistema.
+- Simulador Wokwi → Permite testar o código sem precisar do hardware real, ideal para desenvolvimento rápido e depuração.
+
+🔗 Ferramentas de Suporte
+- Git → Fundamental para controle de versão, backup e colaboração no desenvolvimento do projeto.
+- Extensão C/C++ para VS Code → Habilita realce de sintaxe, sugestões e depuração para código C/C++.
+- Extensão Raspberry Pi Pico Tools → Facilita a programação e o upload do firmware para o microcontrolador diretamente pelo VS Code.
+💡 Dica: Certifique-se de testar a configuração antes de começar a desenvolver para evitar problemas inesperados.
 
 ## Como Rodar o Projeto
 
@@ -29,11 +37,11 @@ Siga as etapas abaixo para rodar o projeto:
 1. **Clone o repositório**:
    No terminal, clone o repositório com o seguinte comando:
    ```bash
-   git clone https://github.com/Difarias/semaforo_e_temporizador_embarcatech/tree/master/tarefa01_semaforo
+   git clone https://github.com/Difarias/semaforo_e_temporizador_embarcatech
    ```
 
 2. **Abra o projeto no VS Code**:
-   Navegue até a pasta do projeto e abra-a no VS Code.
+   Navegue até a pasta do projeto (tarefa01_semaforo) e abra-a no VS Code.
 
 3. **Gere a pasta de build**:
    No terminal integrado do VS Code, execute os seguintes comandos para gerar a pasta de build:
