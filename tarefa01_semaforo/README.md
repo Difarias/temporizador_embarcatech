@@ -43,6 +43,7 @@ Siga as etapas abaixo para rodar o projeto:
 2. **Abra o projeto no VS Code**:
    Navegue até a pasta do projeto (tarefa01_semaforo) e abra-a no VS Code.
    ```bash
+   cd temporizador_embarcatech/
    cd tarefa01_semaforo/
    code .
    ```
