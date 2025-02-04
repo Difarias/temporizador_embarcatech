@@ -12,7 +12,7 @@ Este repositório contém duas pastas, cada uma representando uma das tarefas re
 Para clonar o repositório, utilize o seguinte comando no seu terminal:
 
 ```bash
-git clone https://github.com/Difarias/semaforo_e_temporizador_embarcatech
+git clone https://github.com/Difarias/temporizador_embarcatech
 ```
 
 Após clonar o repositório, navegue até a pasta que contém a tarefa que você deseja testar:
