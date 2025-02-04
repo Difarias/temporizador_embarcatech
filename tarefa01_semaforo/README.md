@@ -18,7 +18,7 @@ Antes de começar, verifique se possui os seguintes itens instalados e configura
 
 🎯 Ferramentas Essenciais
 - Compilador para C → Necessário para transformar o código-fonte em um executável compatível com o microcontrolador.
-- Editor de Código → Recomendamos o VS Code para facilitar a escrita e depuração do código.
+- Editor de Código → VS Code para facilitar a escrita e depuração do código.
 
 🔧 Configuração do Ambiente
 - SDK do Raspberry Pi Pico → Biblioteca essencial para comunicação e controle do microcontrolador. Certifique-se de que está corretamente configurada no sistema.
