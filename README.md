@@ -1,7 +1,3 @@
-Aqui está um modelo de README para o seu repositório:
-
----
-
 # Tarefa 2 - 29/02
 
 Este repositório contém duas pastas, cada uma representando uma das tarefas relacionadas ao uso de temporizadores em sistemas embarcados:
@@ -45,7 +41,7 @@ Após navegar para a pasta correspondente, siga as instruções fornecidas no RE
 
 Para assistir a uma demonstração do projeto no YouTube, acesse o link abaixo:
 
-[![Assista no YouTube](https://img.youtube.com/vi/HMQTizUsbe0/0.jpg)](https://www.youtube.com/shorts/HMQTizUsbe0)
+[![Assista no YouTube](https://img.youtube.com/vi/tDNKQAwj7AI/0.jpg)](https://youtu.be/tDNKQAwj7AI)
 
 ### Desenvolvedor
 
