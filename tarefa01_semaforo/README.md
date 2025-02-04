@@ -37,7 +37,7 @@ Siga as etapas abaixo para rodar o projeto:
 1. **Clone o repositório**:
    No terminal, clone o repositório com o seguinte comando:
    ```bash
-   git clone https://github.com/Difarias/semaforo_e_temporizador_embarcatech
+   git clone https://github.com/Difarias/temporizador_embarcatech
    ```
 
 2. **Abra o projeto no VS Code**:
