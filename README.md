@@ -21,11 +21,13 @@ Após clonar o repositório, navegue até a pasta que contém a tarefa que você
 
 1. **Para a tarefa de semáforo**:
    ```bash
+   cd temporizador_embarcatech/
    cd tarefa01_semaforo/
    ```
 
 2. **Para a tarefa do temporizador OneShot**:
    ```bash
+   cd temporizador_embarcatech/
    cd tarefa02_temporizadorOneShot/
    ```
 
